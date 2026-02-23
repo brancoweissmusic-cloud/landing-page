@@ -8,45 +8,41 @@ body {
 header {
     background-color: #0d3b66;
     color: white;
-    padding: 30px 20px;
+    padding: 30px;
 }
 
 .logo {
     width: 120px;
+}
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.student-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 320px;
+}
+
+.student-card img {
+    width: 100%;
+    border-radius: 15px;
     margin-bottom: 15px;
 }
 
-.about {
-    padding: 40px 20px;
-}
-
-.music {
-    background-color: #e0f0ff;
-    padding: 40px 20px;
-}
-
-.student {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-}
-
-.student img {
-    width: 250px;
-    border-radius: 15px;
-}
-
-.student-text {
-    max-width: 400px;
-    text-align: right;
+audio {
+    width: 100%;
 }
 
 footer {
     background-color: #0d3b66;
     color: white;
     padding: 15px;
-    margin-top: 40px;
 }
